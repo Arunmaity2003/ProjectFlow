@@ -1,4 +1,3 @@
-import React from 'react'
 
 const sidebarItems = [
   'Overview',
@@ -50,7 +49,7 @@ const Dashboard = () => {
           </div>
 
           <nav className="mt-3 space-y-2">
-            {sidebarItems.map((item, index) => {
+            {sidebarItems.map((item) => {
               const active = item === 'Overview'
 
               return (
